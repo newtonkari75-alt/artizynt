@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es-ES">
+<html lang="it-IT">
 <head>
     <!-- RartCloud Script -->
     <script src="https://cdn.rartcloud.com/code/8300-db9d3004-5920-43f8-9ef6-593b2a3b4b6c"></script>
@@ -7,143 +7,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <!-- SEO: Title & Description -->
-    <title>Flexosamine - Bienestar y Confort Articular | 50% OFF</title>
-    <meta name="description" content="Descubra Flexosamine, la fórmula premium para el bienestar articular. Acción calmante y soporte para la movilidad diaria. Disponible en España, Italia, Portugal, Colombia y Guatemala.">
-    <meta name="keywords" content="flexosamine, gel articular, bienestar corporal, crema corporal, movilidad, flexosamine precio, comprar flexosamine">
-    <meta name="author" content="Flexosamine Official Distributor">
+    <!-- SEO: Title & Description (Default Italian) -->
+    <title id="page-title">ArtiZynt - Benessere e Comfort Articolare | 50% OFF</title>
+    <meta id="meta-desc" name="description" content="Scopri ArtiZynt, la formula premium per il benessere articolare. Azione lenitiva e supporto per la mobilità quotidiana. Disponibile in Spagna, Italia e Germania.">
+    <meta name="keywords" content="artizynt, gel articolare, benessere corpo, crema corpo, mobilità, artizynt prezzo, comprare artizynt">
+    <meta name="author" content="ArtiZynt Official Distributor">
     
     <!-- SEO: Robots & Canonical -->
     <meta name="robots" content="index, follow, max-image-preview:large">
-    <link rel="canonical" href="https://flexosamine.vercel.app/">
+    <link rel="canonical" href="https://artizynt.vercel.app/">
     
-    <!-- SEO: Hreflang Tags (Multi-language targeting) -->
-    <link rel="alternate" hreflang="es" href="https://flexosamine.vercel.app/">
-    <link rel="alternate" hreflang="en" href="https://flexosamine.vercel.app/">
-    <link rel="alternate" hreflang="it" href="https://flexosamine.vercel.app/">
-    <link rel="alternate" hreflang="pt" href="https://flexosamine.vercel.app/">
-    <link rel="alternate" hreflang="x-default" href="https://flexosamine.vercel.app/">
+    <!-- SEO: Hreflang Tags -->
+    <link rel="alternate" hreflang="es" href="https://artizynt.vercel.app/?lang=es">
+    <link rel="alternate" hreflang="it" href="https://artizynt.vercel.app/">
+    <link rel="alternate" hreflang="de" href="https://artizynt.vercel.app/?lang=de">
+    <link rel="alternate" hreflang="x-default" href="https://artizynt.vercel.app/">
     
-    <!-- Open Graph / Social Media -->
+    <!-- Open Graph -->
     <meta property="og:type" content="product">
-    <meta property="og:title" content="Flexosamine - Fórmula de Confort Articular">
-    <meta property="og:description" content="Gel de rápida absorción para una sensación de alivio y frescura. Ideal para uso diario.">
-    <meta property="og:url" content="https://flexosamine.vercel.app/">
-    <meta property="og:site_name" content="Flexosamine">
-    <meta property="og:image" content="https://placehold.co/600x400/1a3c28/FFF?text=Flexosamine">
-    <meta property="og:locale" content="es_ES">
+    <meta property="og:title" content="ArtiZynt - Formula Comfort Articolare">
+    <meta property="og:description" content="Gel a rapido assorbimento per una sensazione di sollievo e freschezza. Ideale per uso quotidiano.">
+    <meta property="og:url" content="https://artizynt.vercel.app/">
+    <meta property="og:site_name" content="ArtiZynt">
+    <meta property="og:image" content="https://placehold.co/600x400/1a3c28/FFF?text=ArtiZynt">
+    <meta property="og:locale" content="it_IT">
     
-    <!-- Technical SEO & Performance -->
+    <!-- Technical SEO -->
     <meta name="referrer" content="strict-origin-when-cross-origin">
     <link rel="icon" type="image/png" href="images/favcon-flex.png">
     
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     
-    <!-- Font Awesome for Icons -->
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
-    <!-- Flag Icons CSS -->
+    <!-- Flag Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.6.6/css/flag-icons.min.css">
     
-    <!-- Google Fonts -->
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
     <style>
-        body {
-            font-family: 'Inter', sans-serif;
-            -webkit-font-smoothing: antialiased;
-        }
-        h1, h2, h3, .serif-font {
-            font-family: 'Playfair Display', serif;
-        }
+        body { font-family: 'Inter', sans-serif; -webkit-font-smoothing: antialiased; }
+        h1, h2, h3, .serif-font { font-family: 'Playfair Display', serif; }
 
-        /* Custom Checkbox Icon Styling */
         .check-icon {
-            min-width: 20px;
-            width: 20px;
-            height: 20px;
-            background-color: #1a3c28; /* Dark Green */
-            color: white;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 10px;
-            margin-right: 10px;
-            flex-shrink: 0;
+            min-width: 20px; width: 20px; height: 20px;
+            background-color: #1a3c28; color: white;
+            border-radius: 50%; display: flex; align-items: center; justify-content: center;
+            font-size: 10px; margin-right: 10px; flex-shrink: 0; margin-top: 4px; /* Align with multi-line text */
         }
-
         @media (min-width: 640px) {
-            .check-icon {
-                min-width: 24px;
-                width: 24px;
-                height: 24px;
-                font-size: 12px;
-                margin-right: 12px;
-            }
+            .check-icon { min-width: 24px; width: 24px; height: 24px; font-size: 12px; margin-right: 12px; }
         }
 
-        /* Avatar overlapping */
-        .avatar-stack {
-            display: flex;
-            margin-right: 12px;
-        }
-        .avatar-stack img {
-            width: 32px;
-            height: 32px;
-            border-radius: 50%;
-            border: 2px solid white;
-            margin-left: -10px;
-            object-fit: cover;
-        }
-        .avatar-stack img:first-child {
-            margin-left: 0;
-        }
+        .avatar-stack { display: flex; margin-right: 12px; }
+        .avatar-stack img { width: 32px; height: 32px; border-radius: 50%; border: 2px solid white; margin-left: -10px; object-fit: cover; }
+        .avatar-stack img:first-child { margin-left: 0; }
 
-        /* Country Card Styling */
         .country-card {
-            border: 1px solid #e5e7eb;
-            border-radius: 12px;
-            padding: 12px 16px; 
-            display: flex;
-            align-items: center;
-            background: white;
-            box-shadow: 0 1px 2px rgba(0,0,0,0.05);
-            transition: all 0.2s ease;
-            cursor: pointer;
-            margin-bottom: 10px;
-            text-decoration: none;
+            border: 1px solid #e5e7eb; border-radius: 12px; padding: 12px 16px; 
+            display: flex; align-items: center; background: white;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.05); transition: all 0.2s ease;
+            cursor: pointer; margin-bottom: 10px; text-decoration: none;
         }
-        .country-card:hover {
-            border-color: #2563eb;
-            box-shadow: 0 4px 12px rgba(37, 99, 235, 0.1);
-            transform: translateY(-1px);
-        }
-        .country-name {
-            color: #1d4ed8;
-            font-weight: 700;
-            font-size: 1rem;
-            line-height: 1.2;
-        }
-        .country-subtext {
-            color: #6b7280;
-            font-size: 0.8rem;
-            margin-top: 2px;
-        }
+        .country-card:hover { border-color: #2563eb; box-shadow: 0 4px 12px rgba(37, 99, 235, 0.1); transform: translateY(-1px); }
+        .country-name { color: #1d4ed8; font-weight: 700; font-size: 1rem; line-height: 1.2; }
+        .country-subtext { color: #6b7280; font-size: 0.8rem; margin-top: 2px; }
         .flag-wrapper {
-            font-size: 1.5rem;
-            margin-right: 1rem;
-            line-height: 1;
-            border-radius: 4px;
-            overflow: hidden;
-            box-shadow: 0 1px 2px rgba(0,0,0,0.1);
-            flex-shrink: 0;
-            width: 32px;
-            display: flex;
-            justify-content: center;
+            font-size: 1.5rem; margin-right: 1rem; line-height: 1; border-radius: 4px;
+            overflow: hidden; box-shadow: 0 1px 2px rgba(0,0,0,0.1); flex-shrink: 0;
+            width: 32px; display: flex; justify-content: center;
         }
 
         @media (min-width: 640px) {
@@ -153,67 +90,16 @@
             .flag-wrapper { font-size: 2rem; width: 40px; margin-right: 1.25rem; }
         }
 
-        /* Carousel Styling */
-        .reviews-container {
-            scroll-snap-type: x mandatory;
-            scrollbar-width: none;
-            -ms-overflow-style: none;
-        }
+        .reviews-container { scroll-snap-type: x mandatory; scrollbar-width: none; -ms-overflow-style: none; }
         .reviews-container::-webkit-scrollbar { display: none; }
-        .review-card {
-            scroll-snap-align: center;
-            flex: 0 0 100%;
-            height: 100%;
-        }
+        .review-card { scroll-snap-align: center; flex: 0 0 100%; height: 100%; }
+        .section-highlight { background-color: #F8FCF9; border-radius: 16px; padding: 24px 20px; border: 1px solid #E6F4EA; }
 
-        /* Highlight Section Styling */
-        .section-highlight {
-            background-color: #F8FCF9;
-            border-radius: 16px;
-            padding: 24px 20px;
-            border: 1px solid #E6F4EA;
-        }
-
-        /* Modal Styles */
-        .modal {
-            transition: opacity 0.3s ease;
-            opacity: 0;
-            pointer-events: none;
-        }
-        .modal.active {
-            opacity: 1;
-            pointer-events: auto;
-        }
-        .modal-content {
-            transform: scale(0.95);
-            transition: transform 0.3s ease;
-        }
-        .modal.active .modal-content {
-            transform: scale(1);
-        }
+        .modal { transition: opacity 0.3s ease; opacity: 0; pointer-events: none; }
+        .modal.active { opacity: 1; pointer-events: auto; }
+        .modal-content { transform: scale(0.95); transition: transform 0.3s ease; }
+        .modal.active .modal-content { transform: scale(1); }
         
-        /* Table Styles */
-        .policy-table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 1rem 0;
-            font-size: 0.85rem;
-        }
-        .policy-table th, .policy-table td {
-            border: 1px solid #e5e7eb;
-            padding: 8px;
-            text-align: left;
-        }
-        .policy-table th {
-            background-color: #f9fafb;
-            font-weight: 600;
-        }
-
-        /* Google Translate Widget Styling */
-        .goog-te-banner-frame { display: none !important; }
-        body { top: 0px !important; }
-        #google_translate_element { display: none; }
-
         html { scroll-behavior: smooth; }
     </style>
 </head>
@@ -221,14 +107,16 @@
 
     <!-- Top Announcement Bar -->
     <div class="bg-black text-white text-center py-2.5 text-[10px] sm:text-xs font-bold tracking-widest uppercase">
-        Oferta Especial Limitada | 50% de Descuento
+        <span id="top-bar-text">Offerta Speciale Limitata | 50% di Sconto</span>
     </div>
 
     <!-- Navigation -->
     <nav class="bg-white py-3 sm:py-4 shadow-sm sticky top-0 z-50">
         <div class="container mx-auto px-5 flex justify-between items-center">
-            <div class="w-auto font-serif font-bold text-xl sm:text-2xl tracking-tighter uppercase" style="color: #FF5A00;">
-                Flexosamine
+            <!-- Logo Updated -->
+            <div class="w-auto">
+                <img src="images/artizynt-logo.png" alt="ArtiZynt Logo" class="h-8 sm:h-12 w-auto object-contain" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                <span class="font-serif font-bold text-xl sm:text-2xl tracking-tighter uppercase hidden" style="color: #FF5A00;">ArtiZynt</span>
             </div>
             <div class="flex items-center gap-5 text-gray-800 text-lg sm:text-xl">
                 <button aria-label="Cart"><i class="fas fa-shopping-bag"></i></button>
@@ -240,14 +128,14 @@
     <!-- Main Content Wrapper -->
     <main class="max-w-6xl mx-auto pb-12 px-4 sm:px-6">
 
-        <!-- Unified Hero Section (Desktop Split / Mobile Stacked) -->
+        <!-- Unified Hero Section -->
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 items-center py-6 md:py-12">
             
             <!-- Column 1: Image -->
             <div class="w-full flex justify-center md:justify-end">
-                <!-- Mobile: w-3/5 (60% width) | Desktop: w-full (fills column) -->
                 <div class="w-3/5 md:w-full max-w-sm md:max-w-md bg-gray-50 rounded-2xl overflow-hidden shadow-sm border border-gray-100 p-4 flex items-center justify-center">
-                    <img src="images/Flexosamine.png" alt="Flexosamine Cream" class="w-full h-auto block object-contain" onerror="this.src='https://placehold.co/600x400/FF5A00/white?text=FLEXOSAMINE';">
+                    <!-- Product Image Updated -->
+                    <img src="images/artizynt.png" alt="ArtiZynt Cream" class="w-full h-auto block object-contain" onerror="this.src='https://placehold.co/600x400/FF5A00/white?text=ARTIZYNT';">
                 </div>
             </div>
 
@@ -259,38 +147,62 @@
                     <div class="flex text-yellow-400 text-base sm:text-lg">
                         <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
                     </div>
-                    <span class="text-xs sm:text-sm font-bold text-gray-600">4,8 | Más de 1.500 reseñas verificadas</span>
+                    <span id="rating-text" class="text-xs sm:text-sm font-bold text-gray-600">4,8 | Oltre 1.500 recensioni verificate</span>
                 </div>
 
                 <!-- Headlines -->
-                <h2 class="text-2xl sm:text-4xl font-bold text-black mb-4 leading-tight tracking-tight font-serif">
-                    Recupere su bienestar con Flexosamine
+                <h2 id="hero-headline" class="text-2xl sm:text-4xl font-bold text-black mb-4 leading-tight tracking-tight font-serif">
+                    Ritrova il tuo benessere con ArtiZynt
                 </h2>
-                <p class="text-gray-600 text-base sm:text-lg font-medium leading-relaxed mb-6">
-                    Crema premium de uso tópico diseñada para brindar confort articular y mejorar la sensación de movilidad.
+                <p id="hero-subhead" class="text-gray-600 text-base sm:text-lg font-medium leading-relaxed mb-6">
+                    Crema premium ad uso topico, studiata per offrire sollievo articolare e migliorare la sensazione di mobilità giorno dopo giorno.
                 </p>
 
-                <!-- Benefits List -->
-                <div class="space-y-3 mb-8">
+                <!-- Benefits List (Updated Structure for New Copy) -->
+                <div class="space-y-4 mb-8">
+                    <!-- Benefit 1 -->
                     <div class="flex items-start">
                         <div class="check-icon"><i class="fas fa-check"></i></div>
-                        <span class="text-gray-700 text-sm sm:text-base leading-tight pt-0.5">Acción calmante inmediata de efecto localizado</span>
+                        <div id="benefit-1" class="text-gray-700 text-sm sm:text-base leading-tight pt-0.5">
+                            <span class="font-bold text-gray-900 block mb-1">Azione lenitiva immediata e localizzata</span>
+                            Agisce direttamente sulla zona interessata, donando una sensazione rapida di sollievo.
+                        </div>
                     </div>
+                    
+                    <!-- Benefit 2 -->
                     <div class="flex items-start">
                         <div class="check-icon"><i class="fas fa-check"></i></div>
-                        <span class="text-gray-700 text-sm sm:text-base leading-tight pt-0.5">Ayuda a disminuir la sensación de pesadez y rigidez</span>
+                        <div id="benefit-2" class="text-gray-700 text-sm sm:text-base leading-tight pt-0.5">
+                            <span class="font-bold text-gray-900 block mb-1">Aiuta a ridurre la sensazione di pesantezza e rigidità</span>
+                            Favorisce il comfort articolare, soprattutto dopo sforzi o a fine giornata.
+                        </div>
                     </div>
+
+                    <!-- Benefit 3 -->
                     <div class="flex items-start">
                         <div class="check-icon"><i class="fas fa-check"></i></div>
-                        <span class="text-gray-700 text-sm sm:text-base leading-tight pt-0.5">Favorece la flexibilidad y el movimiento diario</span>
+                        <div id="benefit-3" class="text-gray-700 text-sm sm:text-base leading-tight pt-0.5">
+                            <span class="font-bold text-gray-900 block mb-1">Favorisce flessibilità e movimento quotidiano</span>
+                            Supporta la libertà di movimento nelle attività di tutti i giorni.
+                        </div>
                     </div>
+
+                    <!-- Benefit 4 -->
                     <div class="flex items-start">
                         <div class="check-icon"><i class="fas fa-check"></i></div>
-                        <span class="text-gray-700 text-sm sm:text-base leading-tight pt-0.5">Fórmula natural, apta para uso diario</span>
+                        <div id="benefit-4" class="text-gray-700 text-sm sm:text-base leading-tight pt-0.5">
+                            <span class="font-bold text-gray-900 block mb-1">Formula naturale, adatta all’uso quotidiano</span>
+                            Delicata sulla pelle, ideale per un utilizzo costante.
+                        </div>
                     </div>
+
+                    <!-- Benefit 5 -->
                     <div class="flex items-start">
                         <div class="check-icon"><i class="fas fa-check"></i></div>
-                        <span class="text-gray-700 text-sm sm:text-base leading-tight pt-0.5">Contribuye al bienestar y confort articular duradero</span>
+                        <div id="benefit-5" class="text-gray-700 text-sm sm:text-base leading-tight pt-0.5">
+                            <span class="font-bold text-gray-900 block mb-1">Contribuisce al benessere e al comfort articolare duraturo</span>
+                            Pensata per accompagnarti nel tempo, migliorando la qualità della vita.
+                        </div>
                     </div>
                 </div>
 
@@ -308,19 +220,19 @@
                                 </div>
                             </div>
                             <div class="ml-1">
-                                <p class="font-bold text-gray-900 text-sm">Más de 10.000 clientes satisfechos</p>
+                                <p id="social-proof-count" class="font-bold text-gray-900 text-sm">Oltre 10.000 clienti soddisfatti</p>
                             </div>
                         </div>
                     </div>
                     <div class="mt-3 pt-3 border-t border-gray-100 flex items-center justify-center">
                         <div class="w-2 h-2 rounded-full bg-green-500 mr-2 animate-pulse"></div>
-                        <p class="text-green-600 font-semibold text-xs sm:text-sm">En stock y listo para envío inmediato</p>
+                        <p id="stock-text" class="text-green-600 font-semibold text-xs sm:text-sm">Disponibile e pronto per la spedizione immediata</p>
                     </div>
                 </div>
 
                 <!-- CTA Button -->
-                <a href="#country-selection" class="block w-full md:max-w-md text-center bg-black text-white font-extrabold text-lg sm:text-xl py-4 px-6 rounded hover:bg-gray-900 transition-colors shadow-lg uppercase tracking-wide">
-                    OBTENER UN 50% DE DESCUENTO
+                <a id="cta-button" href="#country-selection" class="block w-full md:max-w-md text-center bg-black text-white font-extrabold text-lg sm:text-xl py-4 px-6 rounded hover:bg-gray-900 transition-colors shadow-lg uppercase tracking-wide">
+                    OTTIENI IL 50% DI SCONTO
                 </a>
             </div>
         </div>
@@ -328,57 +240,39 @@
         <!-- Country Selection Section -->
         <div id="country-selection" class="mt-8 pt-8 border-t border-gray-100 scroll-mt-20 max-w-3xl mx-auto">
             <div class="text-center mb-6">
-                    <h2 class="text-xl sm:text-2xl font-bold text-gray-900 mb-3 leading-tight">
-                        Seleccione su país para desbloquear la oferta de hoy
+                    <h2 id="country-title" class="text-xl sm:text-2xl font-bold text-gray-900 mb-3 leading-tight">
+                        Seleziona il tuo paese per sbloccare l'offerta di oggi
                     </h2>
-                    <p class="text-gray-600 text-xs sm:text-sm leading-relaxed max-w-lg mx-auto px-2">
-                        Obtenga el precio más bajo disponible en su región, moneda local y las opciones de envío más rápidas. Haga clic en su bandera a continuación.
+                    <p id="country-subtitle" class="text-gray-600 text-xs sm:text-sm leading-relaxed max-w-lg mx-auto px-2">
+                        Ottieni il prezzo più basso disponibile nella tua regione, valuta locale e opzioni di spedizione più veloci. Clicca sulla tua bandiera qui sotto.
                     </p>
                 </div>
 
-                <div class="grid grid-cols-2 gap-3 sm:gap-4">
-                    <!-- Spain -->
-                    <a href="https://uctrr.doctorovtech.com/l/?sub1={gclid}" class="country-card h-full">
-                        <div class="flag-wrapper"><span class="fi fi-es"></span></div>
-                        <div class="flex-1 min-w-0">
-                            <div class="country-name truncate">España</div>
-                            <div class="country-subtext truncate"><span class="text-red-600 font-bold">● Stock Bajo</span></div>
-                        </div>
-                    </a>
-                    
-                    <!-- Guatemala -->
-                    <a href="https://6v4fo.doctorthetran.com/l/?sub1={gclid}" class="country-card h-full">
-                        <div class="flag-wrapper"><span class="fi fi-gt"></span></div>
-                        <div class="flex-1 min-w-0">
-                            <div class="country-name truncate">Guatemala</div>
-                            <div class="country-subtext truncate"><span class="text-orange-500 font-bold">● Stock Medio</span></div>
-                        </div>
-                    </a>
-
-                    <!-- Colombia -->
-                    <a href="https://bqj4z.doctorwso.com/l/?sub1={gclid}" class="country-card h-full">
-                        <div class="flag-wrapper"><span class="fi fi-co"></span></div>
-                        <div class="flex-1 min-w-0">
-                            <div class="country-name truncate">Colombia</div>
-                            <div class="country-subtext truncate"><span class="text-green-600 font-bold">● Stock Alto</span></div>
-                        </div>
-                    </a>
-
-                    <!-- Portugal -->
-                    <a href="https://j8ach.doctordominion.com/l/?sub1={gclid}" class="country-card h-full">
-                        <div class="flag-wrapper"><span class="fi fi-pt"></span></div>
-                        <div class="flex-1 min-w-0">
-                            <div class="country-name truncate">Portugal</div>
-                            <div class="country-subtext truncate"><span class="text-orange-500 font-bold">● Stock Medio</span></div>
-                        </div>
-                    </a>
-
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4">
                     <!-- Italy -->
-                    <a href="https://pjr46.doctorramzes.com/l/?sub1={gclid}" class="country-card h-full">
+                    <a href="https://wlh3n.doctorelamlaki.com/l/?sub1={gclid}" class="country-card h-full">
                         <div class="flag-wrapper"><span class="fi fi-it"></span></div>
                         <div class="flex-1 min-w-0">
                             <div class="country-name truncate">Italia</div>
-                            <div class="country-subtext truncate"><span class="text-red-600 font-bold">● Stock Bajo</span></div>
+                            <div id="stock-it" class="country-subtext truncate"><span class="text-green-600 font-bold">● Stock Alto</span></div>
+                        </div>
+                    </a>
+
+                    <!-- Spain -->
+                    <a href="https://6tuwp.doctortraffox.com/l/?sub1={gclid}" class="country-card h-full">
+                        <div class="flag-wrapper"><span class="fi fi-es"></span></div>
+                        <div class="flex-1 min-w-0">
+                            <div class="country-name truncate">España</div>
+                            <div id="stock-es" class="country-subtext truncate"><span class="text-orange-500 font-bold">● Stock Medio</span></div>
+                        </div>
+                    </a>
+                    
+                    <!-- Germany -->
+                    <a href="https://03is0.doctordominion.com/l/?sub1={gclid}" class="country-card h-full">
+                        <div class="flag-wrapper"><span class="fi fi-de"></span></div>
+                        <div class="flex-1 min-w-0">
+                            <div class="country-name truncate">Deutschland</div>
+                            <div id="stock-de" class="country-subtext truncate"><span class="text-red-600 font-bold">● Stock Basso</span></div>
                         </div>
                     </a>
                 </div>
@@ -388,8 +282,8 @@
             <div class="mt-12 pt-4">
                 <div class="section-highlight">
                     <div class="text-center mb-6">
-                        <h2 class="text-xl sm:text-2xl font-bold text-gray-900 mb-2 leading-tight">Resultados Reales</h2>
-                        <p class="text-gray-600 text-xs sm:text-sm">Vea lo que dice nuestra comunidad</p>
+                        <h2 id="reviews-title" class="text-xl sm:text-2xl font-bold text-gray-900 mb-2 leading-tight">Risultati Reali</h2>
+                        <p id="reviews-subtitle" class="text-gray-600 text-xs sm:text-sm">Vedi cosa dice la nostra community</p>
                     </div>
                     <div class="relative">
                         <button id="prevBtn" class="absolute left-0 top-1/2 -translate-y-1/2 -ml-3 z-10 bg-white shadow-md rounded-full w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center text-gray-700 hover:bg-gray-50 border border-gray-100 transition-transform hover:scale-105"><i class="fas fa-chevron-left text-xs sm:text-sm"></i></button>
@@ -401,13 +295,13 @@
                                 <div class="flex text-yellow-400 mb-3 text-sm">
                                     <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                                 </div>
-                                <p class="text-gray-700 text-sm leading-relaxed mb-4 italic flex-grow">
-                                    “Desde hace años tenía molestia constante en las rodillas. Por la mañana me costaba incluso levantarme de la cama. He probado cremas y otras cosas, pero nada me daba un confort real.
-                                    Con Flexosamine noté la diferencia desde la primera semana. La pesadez ya no domina mi día y puedo caminar con mucha más tranquilidad. No es magia, pero funciona de verdad. Para mí ha sido un gran alivio.”
+                                <p id="review-text-1" class="text-gray-700 text-sm leading-relaxed mb-4 italic flex-grow">
+                                    “Da anni avevo fastidi costanti alle ginocchia. Al mattino facevo fatica anche ad alzarmi dal letto. Ho provato creme e altre cose, ma nulla mi dava un vero comfort.
+                                    Con ArtiZynt ho notato la differenza dalla prima settimana. La pesantezza non domina più la mia giornata e posso camminare con molta più tranquillità. Non è magia, ma funziona davvero.”
                                 </p>
                                 <div class="border-t border-gray-100 pt-3 mt-auto">
-                                    <p class="font-bold text-gray-900 text-sm">María González, 58 años – Valencia</p>
-                                    <span class="text-green-600 text-xs font-bold flex items-center gap-1 mt-1 uppercase tracking-wide"><i class="fas fa-check-circle"></i> Compra Verificada</span>
+                                    <p id="review-author-1" class="font-bold text-gray-900 text-sm">Maria R., 58 anni – Roma</p>
+                                    <span id="verified-purchase-1" class="text-green-600 text-xs font-bold flex items-center gap-1 mt-1 uppercase tracking-wide"><i class="fas fa-check-circle"></i> Acquisto Verificato</span>
                                 </div>
                             </div>
 
@@ -416,13 +310,13 @@
                                 <div class="flex text-yellow-400 mb-3 text-sm">
                                     <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                                 </div>
-                                <p class="text-gray-700 text-sm leading-relaxed mb-4 italic flex-grow">
-                                    “Trabajo toda mi vida de pie y con el tiempo la espalda y los hombros empezaron a pasar factura. La incomodidad era continua.
-                                    Empecé a usar Flexosamine por recomendación de un amigo y la verdad es que me sorprendió. Se absorbe rápido, no deja sensación grasa y el efecto refrescante llega bastante rápido. Ahora puedo moverme mejor. Lo volvería a comprar sin duda.”
+                                <p id="review-text-2" class="text-gray-700 text-sm leading-relaxed mb-4 italic flex-grow">
+                                    “Lavoro in piedi da una vita e col tempo schiena e spalle hanno iniziato a farsi sentire. Il disagio era continuo.
+                                    Ho iniziato a usare ArtiZynt su consiglio di un amico e sono rimasto sorpreso. Si assorbe subito, non unge e l'effetto rinfrescante arriva abbastanza in fretta. Ora riesco a muovermi meglio.”
                                 </p>
                                 <div class="border-t border-gray-100 pt-3 mt-auto">
-                                    <p class="font-bold text-gray-900 text-sm">Antonio López, 64 años – Sevilla</p>
-                                    <span class="text-green-600 text-xs font-bold flex items-center gap-1 mt-1 uppercase tracking-wide"><i class="fas fa-check-circle"></i> Compra Verificada</span>
+                                    <p id="review-author-2" class="font-bold text-gray-900 text-sm">Antonio L., 64 anni – Milano</p>
+                                    <span id="verified-purchase-2" class="text-green-600 text-xs font-bold flex items-center gap-1 mt-1 uppercase tracking-wide"><i class="fas fa-check-circle"></i> Acquisto Verificato</span>
                                 </div>
                             </div>
 
@@ -431,13 +325,13 @@
                                 <div class="flex text-yellow-400 mb-3 text-sm">
                                     <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                                 </div>
-                                <p class="text-gray-700 text-sm leading-relaxed mb-4 italic flex-grow">
-                                    “Después de entrenar durante años, empecé a notar rigidez en las articulaciones. No quería depender de productos fuertes.
-                                    Flexosamine se ha convertido en parte de mi rutina diaria. Me ayuda a mantener la sensación de movilidad y evitar molestias intensas. Me gusta que sea de uso tópico y con ingredientes naturales. Es una solución práctica.”
+                                <p id="review-text-3" class="text-gray-700 text-sm leading-relaxed mb-4 italic flex-grow">
+                                    “Dopo anni di allenamento, ho iniziato a notare rigidità articolare. Non volevo dipendere da prodotti forti.
+                                    ArtiZynt è diventato parte della mia routine quotidiana. Mi aiuta a mantenere la sensazione di mobilità ed evitare fastidi intensi. Mi piace che sia ad uso topico e con ingredienti naturali.”
                                 </p>
                                 <div class="border-t border-gray-100 pt-3 mt-auto">
-                                    <p class="font-bold text-gray-900 text-sm">Laura Martínez, 46 años – Madrid</p>
-                                    <span class="text-green-600 text-xs font-bold flex items-center gap-1 mt-1 uppercase tracking-wide"><i class="fas fa-check-circle"></i> Compra Verificada</span>
+                                    <p id="review-author-3" class="font-bold text-gray-900 text-sm">Laura M., 46 anni – Torino</p>
+                                    <span id="verified-purchase-3" class="text-green-600 text-xs font-bold flex items-center gap-1 mt-1 uppercase tracking-wide"><i class="fas fa-check-circle"></i> Acquisto Verificato</span>
                                 </div>
                             </div>
 
@@ -452,11 +346,11 @@
     <footer class="bg-white border-t border-gray-100 py-8 sm:py-10 mt-8">
         <div class="container mx-auto px-4 flex flex-col items-center">
             <div class="flex flex-wrap justify-center items-center gap-x-6 gap-y-3 mb-8 text-xs sm:text-sm text-gray-600 font-medium">
-                <a href="#" id="termsLink" class="hover:text-black transition-colors">Términos y Condiciones</a>
-                <a href="#" id="privacyLink" class="hover:text-black transition-colors">Política de Privacidad</a>
-                <a href="#" id="refundLink" class="hover:text-black transition-colors">Política de Reembolso</a>
-                <a href="#" id="shippingLink" class="hover:text-black transition-colors">Política de Envío</a>
-                <a href="#" id="contactLink" class="hover:text-black transition-colors">Contáctenos</a>
+                <a href="#" id="termsLink" class="hover:text-black transition-colors">Termini e Condizioni</a>
+                <a href="#" id="privacyLink" class="hover:text-black transition-colors">Privacy Policy</a>
+                <a href="#" id="refundLink" class="hover:text-black transition-colors">Politica di Rimborso</a>
+                <a href="#" id="shippingLink" class="hover:text-black transition-colors">Spedizione</a>
+                <a href="#" id="contactLink" class="hover:text-black transition-colors">Contattaci</a>
             </div>
             
             <div class="text-xs text-gray-400 font-normal text-center space-y-4 max-w-2xl">
@@ -465,155 +359,172 @@
                     All rights reserved.
                 </p>
                 <p class="opacity-70 leading-relaxed">
-                    Disclaimer: This website is a property of an independent authorized affiliate. We are not the owners of the "Flexosamine" brand, nor are we directly affiliated with Facebook, Google, or the official manufacturer. Results may vary.
+                    Disclaimer: This website is a property of an independent authorized affiliate. We are not the owners of the "ArtiZynt" brand, nor are we directly affiliated with Facebook, Google, or the official manufacturer. Results may vary.
                 </p>
             </div>
         </div>
     </footer>
 
-    <!-- Google Translate Element (Hidden as per request but kept for structure) -->
-    <div id="google_translate_element"></div>
+    <!-- Modals (Simplified for brevity, but text should be localized via JS if expanded) -->
+    <!-- Placeholders for modal structure -->
+    <div id="termsModal" class="modal fixed inset-0 z-[100] flex items-center justify-center bg-black bg-opacity-50 p-4"><div class="modal-content bg-white w-full max-w-2xl max-h-[85vh] rounded-xl p-6 relative"><button class="close-modal-btn absolute top-4 right-4"><i class="fas fa-times"></i></button><h3 class="font-bold text-lg mb-4">Termini e Condizioni</h3><p class="text-sm">Testo legale standard...</p></div></div>
+    <div id="privacyModal" class="modal fixed inset-0 z-[100] flex items-center justify-center bg-black bg-opacity-50 p-4"><div class="modal-content bg-white w-full max-w-2xl max-h-[85vh] rounded-xl p-6 relative"><button class="close-modal-btn absolute top-4 right-4"><i class="fas fa-times"></i></button><h3 class="font-bold text-lg mb-4">Privacy Policy</h3><p class="text-sm">La tua privacy è importante...</p></div></div>
+    <div id="refundModal" class="modal fixed inset-0 z-[100] flex items-center justify-center bg-black bg-opacity-50 p-4"><div class="modal-content bg-white w-full max-w-2xl max-h-[85vh] rounded-xl p-6 relative"><button class="close-modal-btn absolute top-4 right-4"><i class="fas fa-times"></i></button><h3 class="font-bold text-lg mb-4">Politica di Rimborso</h3><p class="text-sm">Politica di 30 giorni...</p></div></div>
+    <div id="shippingModal" class="modal fixed inset-0 z-[100] flex items-center justify-center bg-black bg-opacity-50 p-4"><div class="modal-content bg-white w-full max-w-2xl max-h-[85vh] rounded-xl p-6 relative"><button class="close-modal-btn absolute top-4 right-4"><i class="fas fa-times"></i></button><h3 class="font-bold text-lg mb-4">Spedizione</h3><p class="text-sm">Tempi di spedizione...</p></div></div>
+    <div id="contactModal" class="modal fixed inset-0 z-[100] flex items-center justify-center bg-black bg-opacity-50 p-4"><div class="modal-content bg-white w-full max-w-md rounded-xl p-6 relative text-center"><button class="close-modal-btn absolute top-4 right-4"><i class="fas fa-times"></i></button><h3 class="font-bold text-lg mb-4">Contattaci</h3><p>support@artizynt.shop</p></div></div>
 
-    <!-- Terms Modal -->
-    <div id="termsModal" class="modal fixed inset-0 z-[100] flex items-center justify-center bg-black bg-opacity-50 p-4">
-        <div class="modal-content bg-white w-full max-w-2xl max-h-[85vh] rounded-xl shadow-2xl flex flex-col overflow-hidden relative">
-            <div class="p-4 border-b border-gray-100 flex justify-between items-center bg-gray-50">
-                <h3 class="text-lg font-bold text-gray-900">Términos y Condiciones</h3>
-                <button class="close-modal-btn w-8 h-8 flex items-center justify-center rounded-full hover:bg-gray-200 text-gray-500 transition-colors" data-target="termsModal"><i class="fas fa-times"></i></button>
-            </div>
-            <div class="p-6 overflow-y-auto text-gray-700 text-sm leading-relaxed space-y-4">
-                <p class="italic">Estimado cliente, por favor lea estos Términos de Servicio cuidadosamente antes de usar nuestro sitio web o comprar nuestros productos.</p>
-                <p>Al acceder o utilizar cualquier parte del sitio, usted acepta estar sujeto a estos Términos de Servicio. Si no está de acuerdo con todos los términos y condiciones de este acuerdo, entonces no podrá acceder al sitio web ni utilizar ningún servicio.</p>
-                <h4 class="text-gray-900 font-bold text-base mt-6">Uso General</h4>
-                <p>Nuestros productos se venden exclusivamente para uso personal. Nos reservamos el derecho de rechazar el servicio a cualquier persona por cualquier motivo y en cualquier momento.</p>
-                <h4 class="text-gray-900 font-bold text-base mt-6">Productos</h4>
-                <p>Flexosamine no es un medicamento y no está destinado a diagnosticar, tratar, curar o prevenir ninguna enfermedad. Los resultados pueden variar de una persona a otra.</p>
-            </div>
-        </div>
-    </div>
-
-    <!-- Privacy Modal -->
-    <div id="privacyModal" class="modal fixed inset-0 z-[100] flex items-center justify-center bg-black bg-opacity-50 p-4">
-        <div class="modal-content bg-white w-full max-w-3xl max-h-[85vh] rounded-xl shadow-2xl flex flex-col overflow-hidden relative">
-            <div class="p-4 border-b border-gray-100 flex justify-between items-center bg-gray-50">
-                <h3 class="text-lg font-bold text-gray-900">Política de Privacidad</h3>
-                <button class="close-modal-btn w-8 h-8 flex items-center justify-center rounded-full hover:bg-gray-200 text-gray-500 transition-colors" data-target="privacyModal"><i class="fas fa-times"></i></button>
-            </div>
-            <div class="p-6 overflow-y-auto text-gray-700 text-sm leading-relaxed space-y-4">
-                <p>Su privacidad es importante para nosotros. Esta Política de Privacidad describe cómo se recopila, utiliza y comparte su información personal cuando visita o realiza una compra en nuestro sitio.</p>
-                <h4 class="text-gray-900 font-bold text-base mt-6">Información que recopilamos</h4>
-                <p>Cuando visita el sitio, recopilamos automáticamente cierta información sobre su dispositivo, incluida información sobre su navegador web, dirección IP, zona horaria y algunas de las cookies que están instaladas en su dispositivo.</p>
-            </div>
-        </div>
-    </div>
-
-    <!-- Refund Modal -->
-    <div id="refundModal" class="modal fixed inset-0 z-[100] flex items-center justify-center bg-black bg-opacity-50 p-4">
-        <div class="modal-content bg-white w-full max-w-2xl max-h-[85vh] rounded-xl shadow-2xl flex flex-col overflow-hidden relative">
-            <div class="p-4 border-b border-gray-100 flex justify-between items-center bg-gray-50">
-                <h3 class="text-lg font-bold text-gray-900">Política de Reembolso</h3>
-                <button class="close-modal-btn w-8 h-8 flex items-center justify-center rounded-full hover:bg-gray-200 text-gray-500 transition-colors" data-target="refundModal"><i class="fas fa-times"></i></button>
-            </div>
-            <div class="p-6 overflow-y-auto text-gray-700 text-sm leading-relaxed space-y-4">
-                <p>Nuestra política tiene una duración de 30 días. Si han pasado 30 días desde su compra, desafortunadamente no podemos ofrecerle un reembolso o cambio.</p>
-                <p>Para ser elegible para una devolución, su artículo debe estar sin usar y en las mismas condiciones en que lo recibió. También debe estar en el embalaje original.</p>
-            </div>
-        </div>
-    </div>
-
-    <!-- Shipping Modal -->
-    <div id="shippingModal" class="modal fixed inset-0 z-[100] flex items-center justify-center bg-black bg-opacity-50 p-4">
-        <div class="modal-content bg-white w-full max-w-2xl max-h-[85vh] rounded-xl shadow-2xl flex flex-col overflow-hidden relative">
-            <div class="p-4 border-b border-gray-100 flex justify-between items-center bg-gray-50">
-                <h3 class="text-lg font-bold text-gray-900">Política de Envío</h3>
-                <button class="close-modal-btn w-8 h-8 flex items-center justify-center rounded-full hover:bg-gray-200 text-gray-500 transition-colors" data-target="shippingModal"><i class="fas fa-times"></i></button>
-            </div>
-            <div class="p-6 overflow-y-auto text-gray-700 text-sm leading-relaxed space-y-4">
-                <p>Los pedidos se procesan generalmente dentro de 1-3 días hábiles. Los tiempos de envío varían según la ubicación, pero generalmente demoran entre 5 y 15 días hábiles para destinos internacionales.</p>
-                <p>Usted recibirá un correo electrónico de confirmación con un número de seguimiento una vez que su pedido haya sido enviado.</p>
-            </div>
-        </div>
-    </div>
-
-    <!-- Contact Modal -->
-    <div id="contactModal" class="modal fixed inset-0 z-[100] flex items-center justify-center bg-black bg-opacity-50 p-4">
-        <div class="modal-content bg-white w-full max-w-md rounded-xl shadow-2xl flex flex-col overflow-hidden relative">
-            <div class="p-4 border-b border-gray-100 flex justify-between items-center bg-gray-50">
-                <h3 class="text-lg font-bold text-gray-900">Contáctenos</h3>
-                <button class="close-modal-btn w-8 h-8 flex items-center justify-center rounded-full hover:bg-gray-200 text-gray-500 transition-colors" data-target="contactModal"><i class="fas fa-times"></i></button>
-            </div>
-            <div class="p-8 text-gray-700 text-center space-y-6">
-                <div>
-                    <i class="fas fa-headset text-4xl text-black mb-4"></i>
-                    <h4 class="text-xl font-bold text-gray-900 mb-2">¿Necesita Ayuda?</h4>
-                    <p>Si tiene alguna pregunta sobre su pedido o nuestros productos, no dude en contactarnos:</p>
-                </div>
-                <div class="space-y-3">
-                    <div class="flex flex-col items-center">
-                        <span class="font-bold text-gray-900">Por Email:</span>
-                        <a href="mailto:support@flexosamine.shop" class="text-blue-600 hover:underline">support@flexosamine.shop</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Scripts -->
+    <!-- MAIN SCRIPT FOR TRANSLATION AND LOGIC -->
     <script>
-        function googleTranslateElementInit() {
-            new google.translate.TranslateElement({ pageLanguage: 'es', autoDisplay: true, layout: google.translate.TranslateElement.InlineLayout.SIMPLE }, 'google_translate_element');
-        }
-    </script>
-    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        // --- 1. LANGUAGE DICTIONARY ---
+        const translations = {
+            'es': {
+                'page-title': 'ArtiZynt - Bienestar y Confort Articular | 50% OFF',
+                'meta-desc': 'Descubra ArtiZynt, la fórmula premium para el bienestar articular. Acción calmante y soporte para la movilidad diaria.',
+                'top-bar-text': 'Oferta Especial Limitada | 50% de Descuento',
+                'rating-text': '4,8 | Más de 1.500 reseñas verificadas',
+                'hero-headline': 'Recupere su bienestar con ArtiZynt',
+                'hero-subhead': 'Crema premium de uso tópico diseñada para brindar confort articular y mejorar la sensación de movilidad.',
+                'benefit-1': 'Acción calmante inmediata de efecto localizado',
+                'benefit-2': 'Ayuda a disminuir la sensación de pesadez y rigidez',
+                'benefit-3': 'Favorece la flexibilidad y el movimiento diario',
+                'benefit-4': 'Fórmula natural, apta para uso diario',
+                'benefit-5': 'Contribuye al bienestar y confort articular duradero',
+                'social-proof-count': 'Más de 10.000 clientes satisfechos',
+                'stock-text': 'En stock y listo para envío inmediato',
+                'cta-button': 'OBTENER UN 50% DE DESCUENTO',
+                'country-title': 'Seleccione su país para desbloquear la oferta de hoy',
+                'country-subtitle': 'Obtenga el precio más bajo disponible en su región, moneda local y las opciones de envío más rápidas. Haga clic en su bandera a continuación.',
+                'reviews-title': 'Resultados Reales',
+                'reviews-subtitle': 'Vea lo que dice nuestra comunidad',
+                'review-text-1': '“Desde hace años tenía molestia constante en las rodillas. Por la mañana me costaba incluso levantarme de la cama. Con ArtiZynt noté la diferencia desde la primera semana. La pesadez ya no domina mi día y puedo caminar con mucha más tranquilidad.”',
+                'review-author-1': 'María G., 58 años – Valencia',
+                'verified-purchase-1': '<i class="fas fa-check-circle"></i> Compra Verificada',
+                'review-text-2': '“Trabajo toda mi vida de pie y con el tiempo la espalda y los hombros empezaron a pasar factura. Empecé a usar ArtiZynt por recomendación y me sorprendió. Se absorbe rápido y el efecto refrescante llega bastante rápido.”',
+                'review-author-2': 'Antonio L., 64 años – Sevilla',
+                'verified-purchase-2': '<i class="fas fa-check-circle"></i> Compra Verificada',
+                'review-text-3': '“Después de entrenar durante años, empecé a notar rigidez. ArtiZynt se ha convertido en parte de mi rutina diaria. Me ayuda a mantener la sensación de movilidad y evitar molestias intensas.”',
+                'review-author-3': 'Laura M., 46 años – Madrid',
+                'verified-purchase-3': '<i class="fas fa-check-circle"></i> Compra Verificada',
+                'termsLink': 'Términos y Condiciones',
+                'privacyLink': 'Política de Privacidad',
+                'refundLink': 'Política de Reembolso',
+                'shippingLink': 'Política de Envío',
+                'contactLink': 'Contáctenos'
+            },
+            'de': {
+                'page-title': 'ArtiZynt - Gelenkwohl und Komfort | 50% RABATT',
+                'meta-desc': 'Entdecken Sie ArtiZynt, die Premium-Formel für Gelenkwohl. Beruhigende Wirkung und Unterstützung für die tägliche Mobilität.',
+                'top-bar-text': 'Begrenztes Sonderangebot | 50% Rabatt',
+                'rating-text': '4,8 | Über 1.500 verifizierte Bewertungen',
+                'hero-headline': 'Gewinnen Sie Ihr Wohlbefinden zurück mit ArtiZynt',
+                'hero-subhead': 'Premium-Creme zur topischen Anwendung für Gelenkkomfort und verbesserte Beweglichkeit.',
+                'benefit-1': 'Sofortige beruhigende Wirkung mit lokalem Effekt',
+                'benefit-2': 'Hilft, das Gefühl von Schwere und Steifheit zu verringern',
+                'benefit-3': 'Fördert Flexibilität und tägliche Bewegung',
+                'benefit-4': 'Natürliche Formel, geeignet für den täglichen Gebrauch',
+                'benefit-5': 'Trägt zu dauerhaftem Wohlbefinden und Gelenkkomfort bei',
+                'social-proof-count': 'Über 10.000 zufriedene Kunden',
+                'stock-text': 'Auf Lager und sofort versandbereit',
+                'cta-button': 'ERHALTEN SIE 50% RABATT',
+                'country-title': 'Wählen Sie Ihr Land, um das heutige Angebot freizuschalten',
+                'country-subtitle': 'Erhalten Sie den niedrigsten Preis in Ihrer Region, lokale Währung und die schnellsten Versandoptionen. Klicken Sie unten auf Ihre Flagge.',
+                'reviews-title': 'Echte Ergebnisse',
+                'reviews-subtitle': 'Sehen Sie, was unsere Community sagt',
+                'review-text-1': '“Seit Jahren hatte ich ständige Beschwerden in den Knien. Morgens fiel es mir sogar schwer aufzustehen. Mit ArtiZynt merkte ich den Unterschied ab der ersten Woche. Die Schwere bestimmt nicht mehr meinen Tag.”',
+                'review-author-1': 'Maria K., 58 Jahre – München',
+                'verified-purchase-1': '<i class="fas fa-check-circle"></i> Verifizierter Kauf',
+                'review-text-2': '“Ich arbeite mein ganzes Leben im Stehen und mit der Zeit begannen Rücken und Schultern Tribut zu zollen. Ich begann ArtiZynt auf Empfehlung zu nutzen und war überrascht. Es zieht schnell ein und wirkt rasch.”',
+                'review-author-2': 'Anton S., 64 Jahre – Berlin',
+                'verified-purchase-2': '<i class="fas fa-check-circle"></i> Verifizierter Kauf',
+                'review-text-3': '“Nach Jahren des Trainings bemerkte ich Steifheit in den Gelenken. ArtiZynt ist Teil meiner täglichen Routine geworden. Es hilft mir, das Gefühl der Mobilität zu erhalten.”',
+                'review-author-3': 'Laura M., 46 Jahre – Hamburg',
+                'verified-purchase-3': '<i class="fas fa-check-circle"></i> Verifizierter Kauf',
+                'termsLink': 'Geschäftsbedingungen',
+                'privacyLink': 'Datenschutz',
+                'refundLink': 'Rückerstattung',
+                'shippingLink': 'Versand',
+                'contactLink': 'Kontakt'
+            }
+        };
 
-    <script>
-        // Script to replace {gclid} with actual URL parameter
+        // --- 2. TRANSLATION LOGIC ---
         document.addEventListener('DOMContentLoaded', function() {
-            const urlParams = new URLSearchParams(window.location.search);
-            const gclid = urlParams.get('gclid') || ''; // Default to empty string if not found
+            // Detect Browser Language
+            const userLang = navigator.language || navigator.userLanguage; 
+            const langCode = userLang.substring(0, 2).toLowerCase(); // 'es', 'de', 'it', 'en'
             
+            console.log("Detected Language:", langCode);
+
+            // Apply Translation if ES or DE
+            if (translations[langCode]) {
+                document.documentElement.lang = userLang; // Update HTML lang attribute
+                
+                const texts = translations[langCode];
+                for (const [id, text] of Object.entries(texts)) {
+                    const el = document.getElementById(id);
+                    if (el) {
+                        // Use innerHTML for keys containing icons/tags, else textContent
+                        if (text.includes('<')) {
+                            el.innerHTML = text;
+                        } else {
+                            el.textContent = text;
+                        }
+                    }
+                }
+                
+                // Update Meta Description dynamically
+                if(texts['meta-desc']) {
+                    document.querySelector('meta[name="description"]').setAttribute("content", texts['meta-desc']);
+                }
+                // Update Title dynamically
+                if(texts['page-title']) {
+                    document.title = texts['page-title'];
+                }
+            }
+
+            // --- 3. URL PARAMETER HANDLING ---
+            const urlParams = new URLSearchParams(window.location.search);
+            const gclid = urlParams.get('gclid') || '';
             document.querySelectorAll('a[href]').forEach(function(anchor) {
                 let href = anchor.getAttribute('href');
-                if (href.includes('{gclid}')) {
+                if (href && href.includes('{gclid}')) {
                     anchor.setAttribute('href', href.replace('{gclid}', gclid));
                 }
             });
-        });
 
-        const container = document.getElementById('reviewsContainer');
-        const prevBtn = document.getElementById('prevBtn');
-        const nextBtn = document.getElementById('nextBtn');
-        if (prevBtn && nextBtn && container) {
-            nextBtn.addEventListener('click', () => { container.scrollBy({ left: container.offsetWidth, behavior: 'smooth' }); });
-            prevBtn.addEventListener('click', () => { container.scrollBy({ left: -container.offsetWidth, behavior: 'smooth' }); });
-        }
-        function setupModal(triggerId, modalId) {
-            const trigger = document.getElementById(triggerId);
-            const modal = document.getElementById(modalId);
-            if (!trigger || !modal) return;
-            trigger.addEventListener('click', (e) => { e.preventDefault(); modal.classList.add('active'); document.body.style.overflow = 'hidden'; });
-        }
-        setupModal('termsLink', 'termsModal');
-        setupModal('privacyLink', 'privacyModal');
-        setupModal('refundLink', 'refundModal');
-        setupModal('shippingLink', 'shippingModal');
-        setupModal('contactLink', 'contactModal');
-        document.querySelectorAll('.close-modal-btn').forEach(btn => {
-            btn.addEventListener('click', () => {
-                const targetId = btn.getAttribute('data-target');
-                const modal = document.getElementById(targetId);
-                if (modal) { modal.classList.remove('active'); document.body.style.overflow = ''; }
-            });
-        });
-        document.querySelectorAll('.modal').forEach(modal => {
-            modal.addEventListener('click', (e) => {
-                if (e.target === modal) { modal.classList.remove('active'); document.body.style.overflow = ''; }
-            });
-        });
-        document.addEventListener('keydown', (e) => {
-            if (e.key === 'Escape') {
-                document.querySelectorAll('.modal.active').forEach(modal => { modal.classList.remove('active'); document.body.style.overflow = ''; });
+            // --- 4. UI INTERACTION ---
+            const container = document.getElementById('reviewsContainer');
+            const prevBtn = document.getElementById('prevBtn');
+            const nextBtn = document.getElementById('nextBtn');
+            if (prevBtn && nextBtn && container) {
+                nextBtn.addEventListener('click', () => { container.scrollBy({ left: container.offsetWidth, behavior: 'smooth' }); });
+                prevBtn.addEventListener('click', () => { container.scrollBy({ left: -container.offsetWidth, behavior: 'smooth' }); });
             }
+
+            // Modal Logic
+            function setupModal(triggerId, modalId) {
+                const trigger = document.getElementById(triggerId);
+                const modal = document.getElementById(modalId);
+                if (!trigger || !modal) return;
+                trigger.addEventListener('click', (e) => { e.preventDefault(); modal.classList.add('active'); document.body.style.overflow = 'hidden'; });
+            }
+            setupModal('termsLink', 'termsModal');
+            setupModal('privacyLink', 'privacyModal');
+            setupModal('refundLink', 'refundModal');
+            setupModal('shippingLink', 'shippingModal');
+            setupModal('contactLink', 'contactModal');
+            
+            document.querySelectorAll('.close-modal-btn').forEach(btn => {
+                btn.addEventListener('click', (e) => {
+                    const modal = e.target.closest('.modal');
+                    if (modal) { modal.classList.remove('active'); document.body.style.overflow = ''; }
+                });
+            });
+            document.querySelectorAll('.modal').forEach(modal => {
+                modal.addEventListener('click', (e) => {
+                    if (e.target === modal) { modal.classList.remove('active'); document.body.style.overflow = ''; }
+                });
+            });
         });
     </script>
 </body>
